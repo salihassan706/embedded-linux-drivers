@@ -1,0 +1,22 @@
+# Large binary files - built by CI
+linux-6.1/
+linux-6.1.tar.xz
+busybox-1.36.1/
+busybox-1.36.1.tar.bz2
+rootfs/
+rootfs.img
+mnt/
+*.log
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+module_src/.*.cmd
+module_src/*.o
+module_src/*.ko
+module_src/*.mod
+module_src/*.mod.c
+module_src/modules.order
+module_src/Module.symvers
