@@ -1,3 +1,4 @@
+![ARM64 CI](https://github.com/salihassan706/embedded-linux-drivers/actions/workflows/embedded-ci.yml/badge.svg)
 # ARM64 Embedded Linux Driver Framework
 
 **Author:** Sohail Ali Hassan Abbasi  
