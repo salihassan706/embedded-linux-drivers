@@ -226,3 +226,11 @@ cat /proc/interrupts | grep mpu6050   # verify IRQ registered
 
 ### Data logger output
 ![data logger](demo/data_logger.png)
+
+## Demo Screenshots
+
+### sysfs sensor readings
+![sysfs readings](demo/Mpu6050_1.png)
+
+### Data logger output
+![data logger](demo/Mpu6050_2.png)

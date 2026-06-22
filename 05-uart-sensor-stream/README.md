@@ -142,3 +142,11 @@ python3 uart_receiver.py
 
 ### UART streaming — Pi sending to MacBook
 ![uart stream](demo/uart_stream.png)
+
+## Demo Screenshots
+
+### UART stream on MacBook
+![uart stream](demo/uart_1.png)
+
+### Live data output
+![uart data](demo/uart_2.png)
