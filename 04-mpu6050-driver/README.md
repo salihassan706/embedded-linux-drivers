@@ -218,3 +218,11 @@ cat /proc/interrupts | grep mpu6050   # verify IRQ registered
 - Multiple sysfs files from single kobject
 - Userspace data acquisition via Python
 - Real hardware testing on ARM Raspberry Pi 3
+
+## Demo
+
+### sysfs readings
+![sysfs readings](demo/sysfs_readings.png)
+
+### Data logger output
+![data logger](demo/data_logger.png)

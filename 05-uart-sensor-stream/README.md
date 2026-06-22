@@ -137,3 +137,8 @@ python3 uart_receiver.py
 - Python serial communication using pyserial
 - CP2102 USB-TTL hardware interface and configuration
 - Real-time sensor data acquisition and display
+
+## Demo
+
+### UART streaming — Pi sending to MacBook
+![uart stream](demo/uart_stream.png)
