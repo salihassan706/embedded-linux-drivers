@@ -1,4 +1,4 @@
-# Embedded Linux Driver Portfolio
+# Embedded Linux Developer — Kernel Drivers | ARM64 | I2C | SPI | UART
 
 **Author:** Sohail Ali Hassan Abbasi  
 **Hardware:** Raspberry Pi 3 Model B+ | ARM64 | Kernel 6.12  
