@@ -38,7 +38,8 @@ jobs:
 
     - name: Build kernel module
       run: |
-        cd module_src && make
+        cd 02-qemu-arm64-framework/module_src && make
+
 
     - name: Build BusyBox rootfs
       run: |
@@ -57,7 +58,7 @@ jobs:
         mkdir -p rootfs
         cp -a busybox-1.36.1/_install/* rootfs/
         mkdir -p rootfs/{proc,sys,dev,etc,lib,tmp,root,modules}
-        cp rootfs_files/init rootfs/init
+        cp 02-qemu-arm64-framework/rootfs_files/init rootfs/init
         chmod +x rootfs/init
         cp module_src/hello_arm64.ko rootfs/modules/
         dd if=/dev/zero of=rootfs.img bs=1M count=64
@@ -69,8 +70,8 @@ jobs:
 
     - name: Run embedded Linux tests
       run: |
-        chmod +x run_tests.sh
-        ./run_tests.sh
+        chmod +x 02-qemu-arm64-framework/run_tests.sh
+        ./02-qemu-arm64-framework/run_tests.sh
 
     - name: Upload test log
       if: always()
