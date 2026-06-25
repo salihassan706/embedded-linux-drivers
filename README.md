@@ -126,3 +126,14 @@ embedded-linux-drivers/
 ├── 06-spi-loopback-driver/      ← SPI full-duplex driver
 └── README.md                    ← this file
 ```
+
+---
+
+### 07 — IoT MQTT Sensor Dashboard
+Complete IoT pipeline streaming live sensor data from Raspberry Pi to MacBook over WiFi.
+
+- MPU6050 kernel driver reads accelerometer and gyroscope via I2C
+- Python publisher reads sysfs and publishes JSON to Mosquitto MQTT broker
+- MacBook Python subscriber displays live formatted data with timestamps
+- Complete pipeline: kernel driver → sysfs → MQTT → WiFi → dashboard
+- Real hardware proof — screenshots of live data streaming included
